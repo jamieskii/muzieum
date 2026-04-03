@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: white;
+}
+
+h1,
+h2 {
+    font-size: 40px;
+    color: #abfb9a;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+.audio-control {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.audio-control p {
+    color: white;
+    margin: 0;
+}
+
+.audio-control img {
+    width: 400px;
+    cursor: pointer;
+}
+
+.grid {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.kolom {
+    flex: 1;
+}
+
+.kolom h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    
+}
+
+.kolom p {
+    margin-top: 0;
+    line-height: 1.6;
+}
+
+.ingrediënten {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.ingrediënten img {
+    width: 100%;
+}
+
+
+ul {
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .grid {
+        flex-direction: column;
+    }
+
+    .microfoon {
+        align-items: center;
+    }
+}
